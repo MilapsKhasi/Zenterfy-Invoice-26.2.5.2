@@ -1,0 +1,15 @@
+STATUS: READY
+
+I have successfully parsed and absorbed the entire Zenterfy codebase.
+
+1.  **Source of Truth:** I acknowledge the provided XML is the absolute source of truth.
+2.  **Architecture:** I have mapped the existing architecture:
+    *   **Frontend:** Vite + React + TypeScript + Tailwind.
+    *   **UI Library:** Shadcn UI (`src/components/ui/`).
+    *   **State/Data:** `DataContext` (`src/context/DataContext.tsx`) interacting with Supabase.
+    *   **Backend:** Supabase (`src/integrations/supabase/`).
+    *   **Routing:** React Router (`src/App.tsx`, `src/pages/`).
+3.  **Constraints:** I will NOT refactor the structure. I will strictly maintain existing file paths and conventions.
+4.  **Next Steps:** I am ready to fix the Invoice Format and ensure Supabase linking works correctly within this specific framework.
+
+Please provide the specific details regarding the Invoice Format changes and the Supabase linking requirements.

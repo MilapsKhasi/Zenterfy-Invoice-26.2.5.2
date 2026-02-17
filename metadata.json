@@ -1,0 +1,5 @@
+{
+  "name": "Zenterfy Invoice",
+  "description": "A professional invoice management application built with Vite, React, Tailwind CSS, Shadcn UI, and Supabase.",
+  "requestFramePermissions": []
+}
