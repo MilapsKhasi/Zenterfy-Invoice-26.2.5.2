@@ -58,41 +58,41 @@ const AppRoutes = () => (
   <Routes>
     <Route path="/login" element={
       <PublicRoute>
-        <Login><></></Login>
+        <Login />
       </PublicRoute>
     } />
     <Route path="/" element={
       <ProtectedRoute>
         <AppLayout>
-          <Dashboard><></></Dashboard>
+          <Dashboard />
         </AppLayout>
       </ProtectedRoute>
     } />
     <Route path="/create-invoice" element={
       <ProtectedRoute>
         <AppLayout>
-          <CreateInvoice><></></CreateInvoice>
+          <CreateInvoice />
         </AppLayout>
       </ProtectedRoute>
     } />
     <Route path="/sales-register" element={
       <ProtectedRoute>
         <AppLayout>
-          <SalesRegister><></></SalesRegister>
+          <SalesRegister />
         </AppLayout>
       </ProtectedRoute>
     } />
     <Route path="/customers" element={
       <ProtectedRoute>
         <AppLayout>
-          <Customers><></></Customers>
+          <Customers />
         </AppLayout>
       </ProtectedRoute>
     } />
     <Route path="/items" element={
       <ProtectedRoute>
         <AppLayout>
-          <Items><></></Items>
+          <Items />
         </AppLayout>
       </ProtectedRoute>
     } />
